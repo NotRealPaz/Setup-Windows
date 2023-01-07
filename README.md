@@ -14,18 +14,22 @@ Make sure to backup any importain files
 
 ----
 
-## After install operating system
+## After install operating system/recovery
+
+1. update windows
+2. if no more windows update, pause the update
+3. install all latest driver
+4. resume the update, if you see any attempt that windows try to downgrade the driver, remember the driver/update name and hit pause again
+5. use ``wushowhide.diagcab`` to hide any downgrade windows update
+6. resume windows update to see if it's work
+
 ### Driver
-Before continue any step below make sure our computer is working correctly without issue.
 
-
-Update Windows to latest then install graphic driver.
-
-Windows Update tend to break graphic driver. sometime downgrade it. If it happens use [Display Driver Uninstaller (DDU)](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html) or follow some youtube guide
+use [Display Driver Uninstaller (DDU)](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html) if you have problem with gpu
 
 Colorful's Laptop [Driver](https://en.colorful.cn/product.aspx?mid=158)
 
-This app come with colorful laptop, Again you don't need them except colorful's laptop owner.
+This app come with colorful laptop, You don't need them except colorful's laptop owner.
 
 - [Control Center 3.0](https://www.microsoft.com/store/productId/9N6WG0G8B041)
 - [Fan Speed Setting](https://www.microsoft.com/store/productId/9P6LJMR12RN1)
@@ -38,7 +42,7 @@ I use YubiKey 5C NFC so if you don't use security key you can just install Git o
 - [Git](https://git-scm.com/)
 - [Gpg4win](https://www.gpg4win.org/)
 
-Import Public Key from YubiKey somehow from this [guide](https://github.com/drduh/YubiKey-Guide)
+YubiKey [guide](https://github.com/drduh/YubiKey-Guide)
 
 ### Software
 
