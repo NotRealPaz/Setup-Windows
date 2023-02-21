@@ -20,7 +20,7 @@ Make sure to backup any importain files
 2. if no more windows update, pause the update
 3. install all latest driver
 4. resume the update, if you see any attempt that windows try to downgrade the driver, remember the driver/update name and hit pause again
-5. use ``wushowhide.diagcab`` to hide any downgrade windows update
+5. use [wushowhide.diagcab](https://social.technet.microsoft.com/wiki/contents/articles/53184.show-or-hide-updates-utility-fixing-automatic-installation-of-a-problematic-update-in-windows-10-version-1903.aspx) to hide any downgrade windows update
 6. resume windows update to see if it's work
 
 ### Driver
